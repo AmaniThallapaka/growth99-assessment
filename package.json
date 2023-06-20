@@ -6,9 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "com": " ng g c components/notification-details",
-    "ser": " ng g s services/api"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
