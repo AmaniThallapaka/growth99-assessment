@@ -1,0 +1,9 @@
+<div class="header">
+    <span class="bell">
+        <label class="count">{{unreadCount}}</label>
+        <img id="bell" (click)="openMenu()" class="bell-img" src="assets/imgs/bell.svg">
+    </span>
+</div>
+
+<notification-menu *ngIf="isOpen" (readedNotification)="readedNotification($event)"
+    [notificationData]="notificationList"></notification-menu>

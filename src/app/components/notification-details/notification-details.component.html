@@ -1,0 +1,9 @@
+<div class="note-container" *ngIf="activeNotification">
+    <span class="note-header">Notification Details</span>
+    <div class="note-data">
+        <span class="node-content"><label>User Id:</label> {{activeNotification.userId}}</span>
+        <span class="node-content"><label>Id:</label> {{activeNotification.id}}</span>
+        <span class="node-content"><label>Title:</label> {{activeNotification.title}}</span>
+        <span class="node-content"><label>Body:</label> {{activeNotification.body}}</span>
+    </div>
+</div>

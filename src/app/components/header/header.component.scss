@@ -1,0 +1,32 @@
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #3471eb;
+}
+
+.bell {
+    color: #FFF;
+    float: right;
+    margin-right: 66px;
+    margin-top: 20px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.count {
+    border-radius: 11px;
+    width: 20px;
+    font-size: 13px;
+    height: 20px;
+    background: red;
+    margin-left: 13px;
+    padding-bottom: 19px;
+    text-align: center;
+}
+
+.bell-img {
+    width: 26px;
+    margin-top: -12px;
+}

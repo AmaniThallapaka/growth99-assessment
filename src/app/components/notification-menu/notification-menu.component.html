@@ -1,0 +1,6 @@
+<div id="m" class="container-data" style="width: 22rem;">
+    <div class="card-data" [ngStyle]="{background: notification.read ? '#daeff0' : '#8c8888'}"
+        *ngFor="let notification of notificationData;" (click)="readNotification(notification.id)">
+        <span >{{notification.title}}</span>
+    </div>
+</div>
